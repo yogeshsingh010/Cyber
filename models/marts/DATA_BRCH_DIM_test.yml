@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: DATA_BRCH_DIM
+    columns:
+      - name: Entity
+        tests:
+          - not_null
