@@ -1,7 +1,7 @@
 {{ config(materialized='table') }}
 select 'ali' as name1
 union all
-select 'zubain' as name1
+select 'Rohan' as name1
 union all
 select 'rayyan' as name1
 union all
