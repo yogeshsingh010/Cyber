@@ -8,6 +8,5 @@ select '21st Century Oncology' as Entity, 2016 as year, 2200000 as records, 'hea
 union all
 select '500px' as Entity, 2020 as year, 14870304 as records, 'social networking' as Organization_type, 'hacked' as Method
 
-
 union all
 select 'Air Canada' as Entity, 2018 as year, 20000 as records, 'transport' as Organization_type, 'hacked' as Method
