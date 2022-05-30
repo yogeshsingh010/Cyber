@@ -1,9 +1,0 @@
-version: 2
-
-models:
-  - name: tableA1
-    columns:
-      - name: name1
-        tests:
-          - unique
-          - not_null
