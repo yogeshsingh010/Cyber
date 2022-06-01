@@ -35,8 +35,9 @@ models:
   my_new_project:
     # Applies to all files under models/example/
     example:
-      materialized: view
-    pra:
-      +schema: DBT_CYBER
-    prb:
-      +schema: DBT_CYBER
+      materialized: table
+    Stage:
+        pra:
+          +schema: SCH_CYB_INTG
+        prb:
+          +schema: CYB_STG_SCH
