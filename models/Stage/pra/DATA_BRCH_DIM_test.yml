@@ -6,4 +6,5 @@ models:
       - name: Entity
         tests:
           - not_null
+          - unique
           
